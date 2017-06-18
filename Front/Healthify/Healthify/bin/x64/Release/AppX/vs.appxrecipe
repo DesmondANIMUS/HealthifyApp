@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANIMUS</Machine>
+    <WindowsUser>Desmond</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>3e5b4234-d577-4e96-a979-a6742a7d07e0</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Desmond</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>4F07D99A0C3602964D5882CD0AA149F5F1725A385DF439B3E82F9CCD58406746</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3e5b4234-d577-4e96-a979-a6742a7d07e0_1.0.0.0_x64__bxyw9yvdx9jaw</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3e5b4234-d577-4e96-a979-a6742a7d07e0_bxyw9yvdx9jaw!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3e5b4234-d577-4e96-a979-a6742a7d07e0</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Desmond</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-06-17T22:24:10.591</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\frontPage.jpg">
+      <PackagePath>Assets\frontPage.jpg</PackagePath>
+      <Modified>2017-06-17T20:38:58.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2017-02-09T19:08:29.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\login.jpg">
+      <PackagePath>Assets\login.jpg</PackagePath>
+      <Modified>2017-06-17T20:38:58.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\otp.jpg">
+      <PackagePath>Assets\otp.jpg</PackagePath>
+      <Modified>2017-06-17T20:38:58.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:07.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-09T19:08:29.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\symbol.png">
+      <PackagePath>Assets\symbol.png</PackagePath>
+      <Modified>2017-02-10T21:45:11.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\symbol2.png">
+      <PackagePath>Assets\symbol2.png</PackagePath>
+      <Modified>2017-02-10T21:45:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\symbol3.png">
+      <PackagePath>Assets\symbol3.png</PackagePath>
+      <Modified>1969-12-31T23:59:59.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\wallet.png">
+      <PackagePath>Assets\wallet.png</PackagePath>
+      <Modified>2017-02-10T21:43:09.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-11T07:01:06.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-06-13T16:16:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Healthify.dll">
+      <PackagePath>Healthify.dll</PackagePath>
+      <Modified>2017-06-17T22:24:08.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Healthify.exe">
+      <PackagePath>Healthify.exe</PackagePath>
+      <Modified>2017-06-17T22:24:10.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Healthify.pdb">
+      <PackagePath>Healthify.pdb</PackagePath>
+      <Modified>2017-06-17T22:24:10.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\HealthVault.winmd">
+      <PackagePath>HealthVault.winmd</PackagePath>
+      <Modified>2017-01-25T09:00:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2016-08-09T02:44:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2016-08-09T02:44:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Desmond\Documents\Visual Studio 2017\Projects\UWP Native\Healthify\Healthify\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-06-17T22:22:00.922</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x64\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x86\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

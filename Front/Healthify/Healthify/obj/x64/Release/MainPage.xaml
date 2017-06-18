@@ -1,0 +1,39 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Healthify.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                        
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="Assets/frontPage.jpg"/>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:ConnectionId='2' x:Name="docbut" VerticalAlignment="Stretch"
+                HorizontalAlignment="Stretch" Content="Doctor" Foreground="White"
+                                                                           
+                                                    />
+
+        <Button x:ConnectionId='3' x:Name="patbut" VerticalAlignment="Stretch"
+                HorizontalAlignment="Stretch" Foreground="White"
+                Grid.Column="1" Content="Patient" 
+                                                    
+                                     
+                                                      />
+
+        <ProgressRing x:ConnectionId='4' x:Name="docRing" Width="100" Height="100"
+                      Visibility="Collapsed"/>
+        <ProgressRing x:ConnectionId='5' x:Name="patRing" Width="100" Height="100"
+                      Visibility="Collapsed" Grid.Column="1"/>
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,8 @@
+"/t:HealthVault.Types.RecordItem,HealthVault,xml"
+"/t:HealthVault.Types.ItemData,HealthVault,xml"
+"/t:HealthVault.Types.RecordQueryResponse,HealthVault,xml"
+"/t:System.Object,System.Runtime,xml"
+"/t:Healthify.Models.BloodResponse,Healthify,json"
+"/t:Healthify.Models.UserResponse,Healthify,json"
+"/t:Healthify.Models.HistoricalResponse,Healthify,json"
+"/t:Healthify.Models.CommonResponse,Healthify,json"

@@ -1,0 +1,68 @@
+﻿<Page
+    x:Class="Healthify.Pages.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Healthify.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:ConnectionId='1' x:Name="griddyGrid" >
+        <Grid.Background>
+            <ImageBrush x:ConnectionId='2' x:Name="griddyBrush" Stretch="UniformToFill" ImageSource="ms-appx:///Assets/otp.jpg"/>
+        </Grid.Background>
+
+        <Button x:ConnectionId='3' x:Name="useTheUID"
+                VerticalAlignment="Center"                
+                HorizontalAlignment="Center"
+                Background="Aquamarine"                
+                Margin="0,0,0,100"
+                                       >
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Login with Username" />
+                <TextBlock FontFamily="Segoe MDL2 Assets" Text="   "
+                           FontSize="20"/>
+            </StackPanel>
+        </Button>
+
+        <Button x:ConnectionId='4' x:Name="useTheQR" Foreground="White"
+                VerticalAlignment="Center"                
+                HorizontalAlignment="Center"
+                Background="OrangeRed"
+                Margin="0,40,0,0"                       >
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Scan QR Code" />
+                <TextBlock FontFamily="Segoe MDL2 Assets" Text="            "
+                           FontSize="20"/>
+            </StackPanel>
+        </Button>
+
+        <TextBox x:ConnectionId='5' x:Name="usernameBox" PlaceholderText="Enter Username"
+                 VerticalAlignment="Top" Margin="0,140,0,0"
+                 MinWidth="200" HorizontalAlignment="Center"
+                 Visibility="Collapsed"/>
+
+        <Button x:ConnectionId='6' x:Name="sendUserName" VerticalAlignment="Top"
+                Content="NEXT" Margin="0,220,0,0" FontSize="15"
+                HorizontalAlignment="Center" Background="OrangeRed"
+                Foreground="White"                           
+                MinWidth="200" Visibility="Collapsed"/>
+
+        <ProgressRing x:ConnectionId='7' x:Name="ringOring" VerticalAlignment="Stretch"
+                      HorizontalAlignment="Stretch" Visibility="Collapsed"
+                      Margin="130,270,120,250"/>
+
+        <TextBox x:ConnectionId='8' x:Name="otpBox" PlaceholderText="Enter OTP"
+                 VerticalAlignment="Top" Margin="0,140,0,0"
+                 HorizontalAlignment="Center" MinWidth="200"
+                 Visibility="Collapsed"/>
+
+        <Button x:ConnectionId='9' x:Name="sendOtp" VerticalAlignment="Top"
+                Content="LOGIN" Margin="0,220,0,0" FontSize="15"
+                HorizontalAlignment="Center" Background="OrangeRed"
+                Foreground="White"                      
+                MinWidth="200" Visibility="Collapsed"/>
+
+    </Grid>
+</Page>
+

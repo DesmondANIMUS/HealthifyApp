@@ -1,0 +1,122 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Healthify.Pages.DocProfile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Healthify.Pages"
+                        
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        
+        <TextBlock Text="Enter Patient ID" Grid.Column="1"
+                   FontSize="25" TextAlignment="Center" Grid.Row="1"
+                   Margin="0,30,0,0"/>
+
+        <TextBox x:ConnectionId='2' x:Name="usenamebox" Grid.Column="1" Grid.Row="1"
+                 FontSize="25" TextAlignment="Center"
+                 Margin="50,0,50,0" VerticalAlignment="Center"/>
+
+        <Button x:ConnectionId='3' x:Name="submission" Content="Submit" Grid.Column="1"
+                VerticalAlignment="Bottom" HorizontalAlignment="Stretch"
+                Margin="50,0,50,70" Background="Transparent"
+                                         Grid.Row="1"
+                FontSize="25"/>
+
+        <RelativePanel>
+            <Button x:ConnectionId='16' x:Name="HamBut" Width="60"
+                    FontFamily="Segoe MDL2 Assets"
+                    Content="&#xE700;"                     
+                    Height="40px"/>
+            <!--E700 is the code, suffix and prefix are essential for it 
+                 to work properly -->
+        </RelativePanel>
+
+
+        <SplitView x:ConnectionId='4'  x:Name="splitHam" Grid.Row="1" CompactPaneLength="60" 
+                    HorizontalAlignment="Left" DisplayMode="CompactOverlay" 
+                    OpenPaneLength="200">
+
+            <!--               Split View Pane                -->
+
+            <SplitView.Pane>
+
+                <ListBox x:ConnectionId='5' x:Name="listHam" 
+                                                                
+                     HorizontalAlignment="Left" 
+                         SelectionMode="Single">
+                    <ListBoxItem x:ConnectionId='6' x:Name="homeListItem" Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="&#xE13D;" Margin="5,10,0,5"
+                                   FontSize="20"/>
+                            <TextBlock x:ConnectionId='15' x:Name="pBox" FontSize="20" 
+                                        Text="Home" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem x:ConnectionId='7' x:Name="bloodListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="" Margin="5,10,0,10"
+                                   FontSize="20">
+                            </TextBlock>
+                            <TextBlock x:ConnectionId='14' x:Name="cBox" FontSize="20" 
+                                       Text="Blood" Margin="30,4,0,0"/>
+                        </StackPanel>
+
+                    </ListBoxItem>
+
+                    <ListBoxItem x:ConnectionId='8' x:Name="SponsorsListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock 
+                                   Text="₹" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:ConnectionId='13' x:Name="xBox" FontSize="20" 
+                                       Text="Aid via app" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem x:ConnectionId='9' x:Name="feedListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="&#xE136;" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:ConnectionId='12' x:Name="bBox" FontSize="20" 
+                                       Text="Feedback" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem x:ConnectionId='10' x:Name="logoutListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:ConnectionId='11' x:Name="zBox" FontSize="20" 
+                                       Text="Logout" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                </ListBox>
+            </SplitView.Pane>
+        </SplitView>
+
+    </Grid>
+</Page>
+

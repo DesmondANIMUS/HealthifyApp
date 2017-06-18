@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="Healthify.Pages.PatientInfo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Healthify.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="disName" PlaceholderText="Disease Name"/>
+        <DatePicker x:Name="dateOdater" Grid.Row="1"
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center"/>
+
+        <TextBlock Text="Duration - From" Grid.Row="2" 
+                   HorizontalAlignment="Center"
+                   Margin="0,15,0,0" FontSize="20"/>
+
+        <DatePicker x:Name="dateFromPicker" Grid.Row="2"
+                    VerticalAlignment="Bottom" 
+                    HorizontalAlignment="Center"/>
+
+        <TextBlock Text="Duration - To" Grid.Row="3" 
+                   HorizontalAlignment="Center"
+                   Margin="0,15,0,0" FontSize="20"/>
+
+        <DatePicker x:Name="dateToPicker" Grid.Row="3"
+                    VerticalAlignment="Bottom" 
+                    HorizontalAlignment="Center"/>
+
+        <TextBox x:Name="medicBox" PlaceholderText="Medicine"
+                 Grid.Row="4"/>
+
+        <Button x:Name="sendDatatoDB" Content="Submit"
+                Click="sendDatatoDB_Click" Grid.Row="6"
+                HorizontalAlignment="Center"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,200 @@
+﻿<Page
+    x:Class="Healthify.Pages.UserProfile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Loaded="Page_Loaded"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="1" Grid.RowSpan="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Rectangle x:Name="lineOne" Grid.ColumnSpan="2"
+                   HorizontalAlignment="Center"
+                   Width="5" Fill="Black"
+                   VerticalAlignment="Stretch"/>
+
+            <Rectangle x:Name="backgrounrRectangle" Fill="#333333"
+                       Grid.Column="1" />
+            <Rectangle x:Name="imageRectangle" >
+                <Rectangle.Fill>
+                    <ImageBrush Stretch="UniformToFill" ImageSource="ms-appx:///Assets/login.jpg"/>
+                </Rectangle.Fill>
+            </Rectangle>
+
+            <TextBlock x:Name="nameblock" VerticalAlignment="Top" 
+                       HorizontalAlignment="Center" FontSize="25"
+                       Margin="0,130,0,0" Foreground="#9e9e9e"
+                       FontWeight="Bold"
+                       Grid.Row="1" Grid.Column="1" Text="test"/>
+
+            <TextBlock x:Name="emailBlock" VerticalAlignment="Top" 
+                        HorizontalAlignment="Center" FontSize="20"
+                        Margin="0,180,0,0" Foreground="#9e9e9e"
+                        TextWrapping="Wrap"
+                        Grid.Row="1" Grid.Column="1" Text="test@test.com"/>
+
+            <TextBlock x:Name="dobBLock" VerticalAlignment="Top" 
+                        HorizontalAlignment="Center" FontSize="20"
+                        Margin="0,230,0,0" Foreground="#9e9e9e"
+                        TextWrapping="Wrap"
+                        Grid.Row="1" Grid.Column="1" Text="some dob"/>
+
+            <TextBlock x:Name="sexBlock" VerticalAlignment="Top" 
+                        HorizontalAlignment="Center" FontSize="20"
+                        Margin="0,280,0,0" Foreground="#9e9e9e"
+                        TextWrapping="Wrap"
+                        Grid.Row="1" Grid.Column="1" Text="Gender fluid"/>
+
+            <TextBlock x:Name="addressBlock" VerticalAlignment="Top" 
+                        HorizontalAlignment="Center" FontSize="20"
+                        Margin="0,330,0,0" Foreground="#9e9e9e"
+                        TextWrapping="Wrap"
+                        Grid.Row="1" Grid.Column="1" Text="address field"/>
+
+            <Ellipse Width="150" Height="150" VerticalAlignment="Top" 
+                     HorizontalAlignment="Center"
+                     Grid.ColumnSpan="2" Margin="0,15,0,0">
+
+                <Ellipse.Fill>
+                    <ImageBrush x:Name="profileImage" 
+                                ImageSource="ms-appx:///Assets/snoot.jpg" Stretch="UniformToFill"/>
+                </Ellipse.Fill>
+            </Ellipse>
+        </Grid>
+
+        <RelativePanel >
+            <Button x:Name="HamBut" Width="60"
+                    FontFamily="Segoe MDL2 Assets"
+                    Content="&#xE700;" Click="HamBut_Click"
+                    Height="40px"/>
+        </RelativePanel>
+
+
+        <SplitView  x:Name="splitHam" Grid.Row="1" CompactPaneLength="60" 
+                    HorizontalAlignment="Left" DisplayMode="CompactOverlay" 
+                    OpenPaneLength="200" Grid.ColumnSpan="2" >
+
+            <!--               Split View Pane                -->
+
+            <SplitView.Pane>
+
+                <ListBox x:Name="listHam" 
+                     SelectionChanged="listHam_SelectionChanged"
+                     HorizontalAlignment="Left" 
+                         SelectionMode="Single">
+                    <ListBoxItem x:Name="homeListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="&#xE13D;" Margin="5,10,0,5"
+                                   FontSize="20"/>
+                            <TextBlock x:Name="pBox" FontSize="20" 
+                                        Text="Home" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem x:Name="medicalHistoryListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="" Margin="5,10,0,10"
+                                   FontSize="20"/>
+                            <TextBlock x:Name="eBox" FontSize="20" 
+                                       Text="History" Margin="30,4,0,0" />
+                        </StackPanel>
+
+                    </ListBoxItem>
+
+                    <ListBoxItem x:Name="bloodListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="" Margin="5,10,0,10"
+                                   FontSize="20">
+                            </TextBlock>
+                            <TextBlock x:Name="cBox" FontSize="20" 
+                                       Text="Blood" Margin="30,4,0,0"/>
+                        </StackPanel>
+
+                    </ListBoxItem>
+
+                    <ListBoxItem x:Name="suggestionsListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:Name="aBox" FontSize="20" 
+                                       Text="Persona" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem x:Name="SponsorsListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock 
+                                   Text="₹" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:Name="xBox" FontSize="20" 
+                                       Text="Aid via app" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem x:Name="feedListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="&#xE136;" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:Name="bBox" FontSize="20" 
+                                       Text="Feedback" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+
+                    <ListBoxItem x:Name="patInfoListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="&#xE136;" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:Name="patBox" FontSize="20" 
+                                       Text="Confidence" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem x:Name="logoutListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:Name="zBox" FontSize="20" 
+                                       Text="Logout" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                </ListBox>
+            </SplitView.Pane>
+        </SplitView>
+
+    </Grid>
+</Page>

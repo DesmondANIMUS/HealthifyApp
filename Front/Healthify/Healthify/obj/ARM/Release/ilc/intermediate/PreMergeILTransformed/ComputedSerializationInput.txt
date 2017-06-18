@@ -1,0 +1,4 @@
+"/t:Healthify.Models.BloodResponse,Healthify,json"
+"/t:Healthify.Models.HistoricalResponse,Healthify,json"
+"/t:Healthify.Models.CommonResponse,Healthify,json"
+"/t:Healthify.Models.UserResponse,Healthify,json"

@@ -1,0 +1,201 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Healthify.Pages.UserProfile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                        
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="1" Grid.RowSpan="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Rectangle x:ConnectionId='21' x:Name="lineOne" Grid.ColumnSpan="2"
+                   HorizontalAlignment="Center"
+                   Width="5" Fill="Black"
+                   VerticalAlignment="Stretch"/>
+
+            <Rectangle x:ConnectionId='22' x:Name="backgrounrRectangle" Fill="#333333"
+                       Grid.Column="1" />
+            <Rectangle x:ConnectionId='23' x:Name="imageRectangle" >
+                <Rectangle.Fill>
+                    <ImageBrush Stretch="UniformToFill" ImageSource="ms-appx:///Assets/login.jpg"/>
+                </Rectangle.Fill>
+            </Rectangle>
+
+            <TextBlock x:ConnectionId='24' x:Name="nameblock" VerticalAlignment="Top" 
+                       HorizontalAlignment="Center" FontSize="25"
+                       Margin="0,130,0,0" Foreground="#9e9e9e"
+                       FontWeight="Bold"
+                       Grid.Row="1" Grid.Column="1" Text="test"/>
+
+            <TextBlock x:ConnectionId='25' x:Name="emailBlock" VerticalAlignment="Top" 
+                        HorizontalAlignment="Center" FontSize="20"
+                        Margin="0,180,0,0" Foreground="#9e9e9e"
+                        TextWrapping="Wrap"
+                        Grid.Row="1" Grid.Column="1" Text="test@test.com"/>
+
+            <TextBlock x:ConnectionId='26' x:Name="dobBLock" VerticalAlignment="Top" 
+                        HorizontalAlignment="Center" FontSize="20"
+                        Margin="0,230,0,0" Foreground="#9e9e9e"
+                        TextWrapping="Wrap"
+                        Grid.Row="1" Grid.Column="1" Text="some dob"/>
+
+            <TextBlock x:ConnectionId='27' x:Name="sexBlock" VerticalAlignment="Top" 
+                        HorizontalAlignment="Center" FontSize="20"
+                        Margin="0,280,0,0" Foreground="#9e9e9e"
+                        TextWrapping="Wrap"
+                        Grid.Row="1" Grid.Column="1" Text="Gender fluid"/>
+
+            <TextBlock x:ConnectionId='28' x:Name="addressBlock" VerticalAlignment="Top" 
+                        HorizontalAlignment="Center" FontSize="20"
+                        Margin="0,330,0,0" Foreground="#9e9e9e"
+                        TextWrapping="Wrap"
+                        Grid.Row="1" Grid.Column="1" Text="address field"/>
+
+            <Ellipse Width="150" Height="150" VerticalAlignment="Top" 
+                     HorizontalAlignment="Center"
+                     Grid.ColumnSpan="2" Margin="0,15,0,0">
+
+                <Ellipse.Fill>
+                    <ImageBrush x:ConnectionId='29' x:Name="profileImage" 
+                                ImageSource="ms-appx:///Assets/snoot.jpg" Stretch="UniformToFill"/>
+                </Ellipse.Fill>
+            </Ellipse>
+        </Grid>
+
+        <RelativePanel >
+            <Button x:ConnectionId='20' x:Name="HamBut" Width="60"
+                    FontFamily="Segoe MDL2 Assets"
+                    Content="&#xE700;"                     
+                    Height="40px"/>
+        </RelativePanel>
+
+
+        <SplitView x:ConnectionId='2'  x:Name="splitHam" Grid.Row="1" CompactPaneLength="60" 
+                    HorizontalAlignment="Left" DisplayMode="CompactOverlay" 
+                    OpenPaneLength="200" Grid.ColumnSpan="2" >
+
+            <!--               Split View Pane                -->
+
+            <SplitView.Pane>
+
+                <ListBox x:ConnectionId='3' x:Name="listHam" 
+                                                                
+                     HorizontalAlignment="Left" 
+                         SelectionMode="Single">
+                    <ListBoxItem x:ConnectionId='4' x:Name="homeListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="&#xE13D;" Margin="5,10,0,5"
+                                   FontSize="20"/>
+                            <TextBlock x:ConnectionId='19' x:Name="pBox" FontSize="20" 
+                                        Text="Home" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem x:ConnectionId='5' x:Name="medicalHistoryListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="" Margin="5,10,0,10"
+                                   FontSize="20"/>
+                            <TextBlock x:ConnectionId='18' x:Name="eBox" FontSize="20" 
+                                       Text="History" Margin="30,4,0,0" />
+                        </StackPanel>
+
+                    </ListBoxItem>
+
+                    <ListBoxItem x:ConnectionId='6' x:Name="bloodListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="" Margin="5,10,0,10"
+                                   FontSize="20">
+                            </TextBlock>
+                            <TextBlock x:ConnectionId='17' x:Name="cBox" FontSize="20" 
+                                       Text="Blood" Margin="30,4,0,0"/>
+                        </StackPanel>
+
+                    </ListBoxItem>
+
+                    <ListBoxItem x:ConnectionId='7' x:Name="suggestionsListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:ConnectionId='16' x:Name="aBox" FontSize="20" 
+                                       Text="Persona" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem x:ConnectionId='8' x:Name="SponsorsListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock 
+                                   Text="₹" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:ConnectionId='15' x:Name="xBox" FontSize="20" 
+                                       Text="Aid via app" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem x:ConnectionId='9' x:Name="feedListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="&#xE136;" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:ConnectionId='14' x:Name="bBox" FontSize="20" 
+                                       Text="Feedback" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+
+                    <ListBoxItem x:ConnectionId='10' x:Name="patInfoListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="&#xE136;" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:ConnectionId='13' x:Name="patBox" FontSize="20" 
+                                       Text="Confidence" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem x:ConnectionId='11' x:Name="logoutListItem"
+                                 Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" 
+                                   Text="" Margin="5,10,0,10"
+                                   FontSize="20" />
+                            <TextBlock x:ConnectionId='12' x:Name="zBox" FontSize="20" 
+                                       Text="Logout" Margin="30,4,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                </ListBox>
+            </SplitView.Pane>
+        </SplitView>
+
+    </Grid>
+</Page>
+
