@@ -222,7 +222,7 @@ func stringToBits(str string) string {
 }
 func sendMail(Body, to string) error {
 	from := "0incognitogaurav0"
-	password := "desmond_ANIMUS12"
+	password := os.Getenv("P")
 
 	msg := "From: " + from + "\r\n" +
 		"To: " + to + "\r\n" +
